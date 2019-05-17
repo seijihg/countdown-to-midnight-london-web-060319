@@ -1,9 +1,9 @@
 #write your code here
 
-def countdown(int)
+def countdown(n)
 
   while int > 0
-    stdout.puts "#{int} SECOND(S)!"
+    puts "#{n} SECOND(S)!"
     sleep 1
     int -= 1
   end
