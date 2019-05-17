@@ -3,9 +3,9 @@
 def countdown(int)
 
   while int > 0
-    puts "#{int} SECOND(S)!"
+    stdout.puts "#{int} SECOND(S)!"
     sleep 1
     int -= 1
   end
-  puts "HAPPY NEW YEAR!"
+  "HAPPY NEW YEAR!"
 end
